@@ -1,0 +1,61 @@
+.clock {
+  max-width: 700px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.setters {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.btn-up,
+.btn-down {
+  margin: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2222aa;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-start-stop,
+.btn-reset {
+  margin: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffa500;
+  color: white;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 44px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.span-length {
+  font-size: 24px;
+}
+
+.span-time-left {
+  font-size: 40px;
+}
+
+.display {
+  text-align: center;
+  margin-top: 20px;
+}
